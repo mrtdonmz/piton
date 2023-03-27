@@ -31,7 +31,7 @@ version = model.versions.get("2e1dddc8621f72155f24cf2e0adbde548458d3cab9f00c0139
 # set inputs for image captioning task
 inputs = {
     # Input image file path
-    'image': open("C:\\Users\\mert9\\Desktop\\piton\\demo.jpg", "rb"),
+    'image': open("\\demo.jpg", "rb"),
 
     # Choose a task for image captioning
     'task': "image_captioning",

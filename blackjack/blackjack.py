@@ -30,8 +30,9 @@ def card_value(card):
     else:
         return None
 i=0
-while i <52:
+while i <55:
     x = get_next_card()
     print(x)
     print(card_value(x))
     i += 1
+
